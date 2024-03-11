@@ -1,4 +1,6 @@
 
+** FROM P1 DESCRIPTION**
+
 First, I created my repository in git, linked it to VScode, installed packages request (used to retrieve the website) and BeautifulSoup4 (used for the web scraping) to my environment
 
 After doing this, I then pathed my VScode to the miniconda environment so that the code i run in VScode uses the packages within my conda environment.
@@ -12,5 +14,4 @@ I then created my scraping python program (step by step):
     d. after getting all h1 headers, i then retrieve all text with the 'p' or paragraph html and write it to the out file
     e. after getting texts from a website, it then uses time.sleep() to delay the scraping for 1 second. This is     precautionary in case websited pick up bot activity.
   The program outputs after each website has been scraped.
-
 
